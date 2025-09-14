@@ -23,6 +23,7 @@
       margin: 0;
       padding: 0;
       font-family: "Figtree";
+      overflow: hidden;
   }
 
   .card-container {
@@ -96,5 +97,71 @@
 
       .card div .illustration {
           max-width: 300px;
+      }
+  }
+
+  @media screen and (max-width: 382px) {
+      .card {
+          max-width: 290px;
+      }
+
+      .card div .illustration {
+          max-width: 290px;
+      }
+
+      .card-content h3 {
+          font-size: 20px;
+      }
+
+      .paragraphe {
+          font-size: 14px;
+      }
+
+      .datepublication {
+          font-size: 13px;
+      }
+  }
+
+  @media screen and (max-width: 355px) {
+      .card {
+          max-width: 250px;
+      }
+
+      .card div .illustration {
+          max-width: 250px;
+      }
+
+      .card-content h3 {
+          font-size: 18px;
+      }
+
+      .paragraphe {
+          font-size: 13px;
+      }
+
+      .datepublication {
+          font-size: 12px;
+      }
+  }
+
+  @media screen and (max-width: 322px) {
+      .card {
+          max-width: 230px;
+      }
+
+      .card div .illustration {
+          max-width: 230px;
+      }
+
+      .card-content h3 {
+          font-size: 14px;
+      }
+
+      .paragraphe {
+          font-size: 13px;
+      }
+
+      .datepublication {
+          font-size: 12px;
       }
   }
