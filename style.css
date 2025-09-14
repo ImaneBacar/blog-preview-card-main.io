@@ -89,4 +89,12 @@
       margin-right: 10px;
   }
 
-  @media screen and (max-width: 430px) {}
+  @media screen and (max-width: 430px) {
+      .card {
+          max-width: 300px;
+      }
+
+      .card div .illustration {
+          max-width: 300px;
+      }
+  }
